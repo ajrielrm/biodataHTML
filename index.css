@@ -1,0 +1,144 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    margin-top: -15px;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden;
+  }
+
+.header-container{
+    background-color: #000000;
+    height: 80px;
+}
+.header-container h1{
+    color: white;
+    padding: 20px;
+   
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background-color: #100d0a;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+   
+}
+
+.title{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    
+}
+.title p{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.text{
+    overflow: hidden;
+    border-right: .15em solid #3E54AC;
+    white-space: nowrap;
+    animation: 
+    typing 1s steps(20, end) forwards,
+    blink .8s infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #3E54AC; }
+  }
+
+  .content{
+    padding: 30px;
+    margin-top: 300px;
+    display: flex;
+  }
+
+.pp{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.desc{
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.desc p{
+    font-size: 30px;
+   
+}
+
+.button {
+    font-family: 'Inter', sans-serif;
+    background-color: #18122B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .details p{
+    font-size: 20px;
+  }
+
+.details{ 
+    margin-bottom: 30px;
+}
+
+  .name p{
+    font-size: 0px;
+  }
+
+.music{
+    margin-top: -40px;
+    padding: 30px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
